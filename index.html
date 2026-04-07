@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="tiktok-verification" content="L8LJvSzddbk590h7YsjtSDeCLW2ELrMA">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vicy Bot – Legal Documents</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      background: #fff0f5;
+      color: #333;
+      margin: 0;
+      padding: 0;
+    }
+    header {
+      text-align: center;
+      background: #ffe4f0;
+      border-bottom: 3px solid #ff69b4;
+      padding: 20px;
+    }
+    h1 {
+      color: #ff1493;
+      margin: 0;
+    }
+    main {
+      max-width: 800px;
+      margin: 30px auto;
+      padding: 20px;
+      background: #fff0f5;
+      border-radius: 15px;
+      border: 1px solid #ff69b4;
+    }
+    h2 {
+      color: #ff1493;
+      margin-top: 20px;
+    }
+    p, li {
+      line-height: 1.6;
+    }
+    ul {
+      padding-left: 20px;
+    }
+    footer {
+      text-align: center;
+      padding: 15px;
+      background: #ffe4f0;
+      border-top: 3px solid #ff69b4;
+      margin-top: 30px;
+    }
+    a {
+      color: #ff69b4;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    /* --- SISTEM BUTANG RESPONSIVE BARU --- */
+    .nav-container {
+      text-align: center;
+      margin: 20px auto;
+      padding: 0 10px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      gap: 15px;
+    }
+    .nav-btn {
+      background-color: #ffb6c1;
+      color: #fff;
+      border: 2px solid #ff69b4;
+      padding: 15px 20px;
+      font-size: 18px;
+      font-weight: bold;
+      border-radius: 30px;
+      cursor: pointer;
+      width: 90%;
+      max-width: 350px;
+      transition: all 0.3s ease;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+    }
+    .nav-btn:hover {
+      background-color: #ff69b4;
+      transform: scale(1.05);
+    }
+    .nav-btn.active {
+      background-color: #ff1493;
+      border-color: #c71585;
+      box-shadow: 0 4px 10px rgba(255, 20, 147, 0.4);
+    }
+
+    /* Susunan untuk Desktop */
+    @media (min-width: 600px) {
+      .nav-container {
+        flex-direction: row;
+        justify-content: center;
+      }
+      .nav-btn {
+        width: auto;
+      }
+    }
+
+    /* Sembunyikan content yang tidak aktif */
+    .content-section {
+      display: none;
+      animation: fadeIn 0.4s ease-in-out;
+    }
+    .content-section.active {
+      display: block;
+    }
+
+    @keyframes fadeIn {
+      from { opacity: 0; transform: translateY(10px); }
+      to { opacity: 1; transform: translateY(0); }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Vicy Bot – Legal Documents</h1>
+    <p>Last Updated: 7 April 2026</p>
+  </header>
+
+  <div class="nav-container">
+    <button id="btn-privacy" class="nav-btn active" onclick="switchTab('privacy')">📄 Privacy Policy</button>
+    <button id="btn-terms" class="nav-btn" onclick="switchTab('terms')">📜 Terms of Service</button>
+  </div>
+
+  <main>
+    <section id="privacy" class="content-section active">
+      <h2>Introduction</h2>
+      <p>Vicy is a cute and friendly Discord bot designed to help and entertain users. Your privacy is very important to us. This policy explains how we handle the information collected by Vicy.</p>
+
+      <h2>Data Collection</h2>
+      <ul>
+        <li>Vicy <strong>does not request or collect any sensitive personal information</strong> from users.</li>
+        <li>For server features, we only collect your <strong>Discord username and ID</strong>, which is displayed <strong>within a guild</strong> for leaderboard or fun interactions.</li>
+        <li><strong>TikTok Integration:</strong> To provide LIVE notifications, Vicy accesses public <strong>TikTok usernames and LIVE status</strong> via official TikTok APIs.</li>
+      </ul>
+
+      <h2>Data Usage</h2>
+      <p>Collected Discord usernames are used <strong>only to show activity, leaderboard stats, and interactions inside the server</strong>. Data retrieved from TikTok is used <strong>strictly to trigger real-time notifications</strong> in authorized Discord channels. Vicy does <strong>not share, sell, or distribute</strong> any user information outside the server.</p>
+
+      <h2>Data Retention</h2>
+      <p>Usernames and LIVE statuses are stored temporarily <strong>for bot functionality within the server</strong> and are <strong>not stored permanently</strong> outside the bot system.</p>
+
+      <h2>Third Parties</h2>
+      <p>Vicy interacts with TikTok APIs solely for the purpose of the notification feature. Aside from this official integration, Vicy <strong>does not share user data with any third party</strong>. Data is only visible <strong>inside the server</strong> where the bot is used.</p>
+
+      <h2>Changes to Privacy Policy</h2>
+      <p>We may update this Privacy Policy occasionally. Users will be informed of major changes via <strong>bot announcements or server messages</strong>.</p>
+
+      <h2>Contact</h2>
+      <p>If you have any problem, bug, questions, or want your username removed from Vicy records, contact the bot owner: <a href="https://discord.com/users/782212283824472094" target="_blank">Discord Owner</a></p>
+    </section>
+
+    <section id="terms" class="content-section">
+      <h2>1. Acceptance of Terms</h2>
+      <p>By adding Vicy (the "Bot") to your Discord server or using its features, you agree to be bound by these Terms of Service. If you do not agree, please remove the Bot from your server immediately.</p>
+
+      <h2>2. Description of Service</h2>
+      <p>Vicy is a Discord bot designed for entertainment and community management. One of its core features is providing real-time notifications when a linked TikTok creator starts a LIVE broadcast.</p>
+
+      <h2>3. TikTok Integration</h2>
+      <ul>
+        <li><strong>Authorization:</strong> To use the TikTok Live notification feature, creators must authorize the Bot to access their public LIVE status.</li>
+        <li><strong>Accuracy:</strong> Vicy fetches data via official TikTok APIs. We are not responsible for delays, technical glitches, or inaccuracies caused by third-party platforms.</li>
+        <li><strong>Compliance:</strong> Users must comply with TikTok’s own Terms of Service when using any integrated features.</li>
+      </ul>
+
+      <h2>4. User Conduct</h2>
+      <p>Users are prohibited from:</p>
+      <ul>
+        <li>Using the Bot to spam, harass, or distribute illegal content.</li>
+        <li>Attempting to reverse-engineer or disrupt the Bot's services.</li>
+        <li>Using the Bot in any way that violates Discord’s Terms of Service or Community Guidelines.</li>
+      </ul>
+
+      <h2>5. Data & Privacy</h2>
+      <p>Your use of the Bot is also governed by our <strong>Privacy Policy</strong>. We only collect minimal data (such as Discord IDs and public LIVE statuses) necessary for the Bot's functionality.</p>
+
+      <h2>6. Limitation of Liability</h2>
+      <p>Vicy is provided "as is" without any warranties. The developer is not liable for any damages resulting from the use or inability to use the Bot, including server downtime or data loss.</p>
+
+      <h2>7. Changes to Terms</h2>
+      <p>We reserve the right to update these terms at any time. Significant changes will be announced within the Bot's support server or via global announcements.</p>
+
+      <h2>8. Contact</h2>
+      <p>For support or inquiries regarding these terms, please contact the bot owner: <a href="https://discord.com/users/782212283824472094" target="_blank">Discord Owner</a></p>
+    </section>
+  </main>
+
+  <footer>
+    <p>Made with 💖 by secret</p>
+  </footer>
+
+  <script>
+    function switchTab(tabId) {
+      // Buang status aktif dari semua section dan butang
+      document.querySelectorAll('.content-section').forEach(section => {
+        section.classList.remove('active');
+      });
+      document.querySelectorAll('.nav-btn').forEach(btn => {
+        btn.classList.remove('active');
+      });
+
+      // Tambah status aktif pada yang dipilih
+      document.getElementById(tabId).classList.add('active');
+      document.getElementById('btn-' + tabId).classList.add('active');
+    }
+  </script>
+
+</body>
+</html>
